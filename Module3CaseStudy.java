@@ -15,8 +15,7 @@ public class Module3CaseStudy {
 
 	public static void main(String[] args) {
 	
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shallu\\Desktop\\Selenium Training\\Installation Stuff\\Jar Files\\Selenium 3.4\\chromedriver.exe");
-		
+		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver.exe");		
 		WebDriver driver = new ChromeDriver();
 		
 		driver.manage().timeouts().pageLoadTimeout(120, TimeUnit.SECONDS); //Setting the pageload timeout for 120 seconds
