@@ -25,8 +25,6 @@ public class CaseStudy1 {
 		  
 		 // WebDriver driver = new FirefoxDriver(); // Instantiating object of class chromeDriver implementing all the methods/classes/objects of Interface webDriver
 		 
-		
-		
 		driver.manage().deleteAllCookies();   // deleting the previous cookies
 		driver.get("https://www.edureka.co"); // Opening the url of edureka
 		driver.manage().window().fullscreen(); // maximizing the window
